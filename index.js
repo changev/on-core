@@ -5,8 +5,6 @@
 var _ = require('lodash'),
     dependencyInjection = require('di');
 
-
-
 require('./lib/extensions');
 
 module.exports = function (di, directory) {
